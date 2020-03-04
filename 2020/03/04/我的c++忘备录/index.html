@@ -8,14 +8,14 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>我的c++忘备录 | zts&#39; blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我的c++忘备录 输入相关问题   ’cin ‘只读取字符，忽略空格和回车，且遇到空格和回车都视为结束。 getline(cin,存储单元名)可以读取整行字符串包括特殊字符(空格等)，但遇到回车会视为结束，且将回车接受。 当cin后面有getline()时，要在之间加上cin.get()，忽略掉结束cin的回车。 cin.getline(存储单元名,存储长度,结束字符(没有视为回车))也读取整行数">
+  <meta name="description" content="我的c++忘备录 输入相关问题    ’cin ‘只读取字符，忽略空格和回车，且遇到空格和回车都视为结束。 getline(cin,存储单元名)可以读取整行字符串包括特殊字符(空格等)，但遇到回车会视为结束，且将回车接受。 当cin后面有getline()时，要在之间加上cin.get()，忽略掉结束cin的回车。 cin.getline(存储单元名,存储长度,结束字符(没有视为回车))也读取整行">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的c++忘备录">
 <meta property="og:url" content="http://yoursite.com/2020/03/04/%E6%88%91%E7%9A%84c++%E5%BF%98%E5%A4%87%E5%BD%95/index.html">
 <meta property="og:site_name" content="zts&#39; blog">
-<meta property="og:description" content="我的c++忘备录 输入相关问题   ’cin ‘只读取字符，忽略空格和回车，且遇到空格和回车都视为结束。 getline(cin,存储单元名)可以读取整行字符串包括特殊字符(空格等)，但遇到回车会视为结束，且将回车接受。 当cin后面有getline()时，要在之间加上cin.get()，忽略掉结束cin的回车。 cin.getline(存储单元名,存储长度,结束字符(没有视为回车))也读取整行数">
+<meta property="og:description" content="我的c++忘备录 输入相关问题    ’cin ‘只读取字符，忽略空格和回车，且遇到空格和回车都视为结束。 getline(cin,存储单元名)可以读取整行字符串包括特殊字符(空格等)，但遇到回车会视为结束，且将回车接受。 当cin后面有getline()时，要在之间加上cin.get()，忽略掉结束cin的回车。 cin.getline(存储单元名,存储长度,结束字符(没有视为回车))也读取整行">
 <meta property="article:published_time" content="2020-03-04T04:47:43.528Z">
-<meta property="article:modified_time" content="2020-03-04T10:49:06.043Z">
+<meta property="article:modified_time" content="2020-03-04T11:14:17.854Z">
 <meta property="article:author" content="Zhang Tiesen">
 <meta name="twitter:card" content="summary">
   
@@ -42,7 +42,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #4169E1"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -59,8 +59,6 @@
 			<ul>
 			
 				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -86,9 +84,9 @@
 		        
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
-					<a class="qq" target="_blank" href="/472703936" title="qq"><i class="icon-qq"></i></a>
-		        
 					<a class="weixin" target="_blank" href="/zts524987" title="weixin"><i class="icon-weixin"></i></a>
+		        
+					<a class="mail" target="_blank" href="/472703936@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -99,7 +97,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #4169E1"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -118,8 +116,6 @@
 			
 				
 			
-				
-			
 			
 			
 			<nav class="header-nav">
@@ -129,9 +125,9 @@
 			        
 						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 			        
-						<a class="qq" target="_blank" href="/472703936" title="qq"><i class="icon-qq"></i></a>
-			        
 						<a class="weixin" target="_blank" href="/zts524987" title="weixin"><i class="icon-weixin"></i></a>
+			        
+						<a class="mail" target="_blank" href="/472703936@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -140,9 +136,7 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 100%"><a href="/">主页</a></li>
 		        
 				</ul>
 			</nav>
@@ -184,8 +178,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="我的c-忘备录"><a href="#我的c-忘备录" class="headerlink" title="我的c++忘备录"></a>我的c++忘备录</h1><ol>
-<li><p>输入相关问题</p>
+        <h1 id="我的c-忘备录"><a href="#我的c-忘备录" class="headerlink" title="我的c++忘备录"></a>我的c++忘备录</h1><ul>
+<li>输入相关问题</li>
+</ul>
 <blockquote>
 <ul>
 <li>’cin ‘只读取字符，忽略空格和回车，且遇到空格和回车都视为结束。</li>
@@ -194,8 +189,9 @@
 <li>cin.getline(存储单元名,存储长度,结束字符(没有视为回车))也读取整行数据，可以接收空格，但不能接收回车，cin.getline()会在数组结尾是’\0’，getline()不会，并且cin.getline()的参数可以是数组却不可以是string类型。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>数组名相关问题</p>
+<ul>
+<li>数组名相关问题</li>
+</ul>
 <blockquote>
 <ul>
 <li>数组名指代一种数据结构，这种数据结构就是数组。</li>
@@ -203,13 +199,15 @@
 <li>数组名作为函数形参时，退化为指针，对其使用sizeof运算符结果为指针本身大小，而非所指向数据大小。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>宏定义</p>
+<ul>
+<li>宏定义</li>
+</ul>
 <blockquote>
 <p>#define宏定义为一对一的替换，注意要将每个个体用括号括起来，并且末尾不要加“;”，否则会被视为宏定义的一部分。</p>
 </blockquote>
-</li>
-<li><p>static关键字的作用</p>
+<ul>
+<li>static关键字的作用</li>
+</ul>
 <blockquote>
 <ul>
 <li>函数体内static变量的作用范围为该函数体，不同于auto变量，该变量的内存只被分配一次，因此其值在下次调用时仍维持上次的值。</li>
@@ -220,8 +218,9 @@
 <li>对于函数定义和代码块之外的变量声明，static修改标识符的链接属性，由默认的external变为internal，作用域和存储类型不改变，这些符号只能在声明它们的源文件中访问。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>const关键字的作用</p>
+<ul>
+<li>const关键字的作用</li>
+</ul>
 <blockquote>
 <ul>
 <li>欲阻止一个变量被改变，可以使用const关键字。在定义该const变量时，通常需要对它进行初始化，因为以后就没有机会再去改变它了。</li>
@@ -231,11 +230,10 @@
 <li>对于类的成员函数，有时候必须指定其返回值为const类型，以使得其返回值不为“左值”。</li>
 </ul>
 </blockquote>
-</li>
-</ol>
 <p>[^判断方法]: 以 * 为界，按照const关键字位置，左定值右定向。</p>
-<ol start="6">
-<li><p>静态变量</p>
+<ul>
+<li>静态变量</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>全局静态态变量</p>
@@ -280,8 +278,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>c++中的四种类型转换</p>
+<ul>
+<li>c++中的四种类型转换</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>const_cast</p>
@@ -330,8 +329,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>指针和引用的区别</p>
+<ul>
+<li>指针和引用的区别</li>
+</ul>
 <blockquote>
 <ul>
 <li>指针有自己的一块空间，而引用只是一个别名</li>
@@ -345,8 +345,9 @@
 <li>如果返回动态内存分配的对象或者内存，必须使用指针，引用可能引起内存泄露。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>c++的四种智能指针</p>
+<ul>
+<li>c++的四种智能指针</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>为什么要使用智能指针</p>
@@ -414,13 +415,15 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>野指针</p>
+<ul>
+<li>野指针</li>
+</ul>
 <blockquote>
 <p>野指针就是指向一个已删除的对象或者未申请访问受限内存区域的指针。</p>
 </blockquote>
-</li>
-<li><p>C++源文件，从文本到可执行文件的四个过程</p>
+<ul>
+<li>C++源文件，从文本到可执行文件的四个过程</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>预处理阶段：对源代码文件中文件包含关系（头文件）、预编译语句（宏定义）进行分析和替换，生成预编译文件。</p>
@@ -462,8 +465,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>进程虚拟内存</p>
+<ul>
+<li>进程虚拟内存</li>
+</ul>
 <blockquote>
 <p>在C++中，虚拟内存分为代码段、数据段、BSS段、堆区、文件映射区以及栈区六部分。</p>
 <ul>
@@ -475,8 +479,9 @@
 <li>栈（stack）：使用栈空间存储函数的返回地址、参数、局部变量、返回值 。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>段错误</p>
+<ul>
+<li>段错误</li>
+</ul>
 <blockquote>
 <p>段错误通常发生在访问非法内存地址的时候，具体来说分为以下几种情况： </p>
 <ul>
@@ -486,8 +491,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>内存泄漏（memory leak）</p>
+<ul>
+<li>内存泄漏（memory leak）</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>堆内存泄露（Heap leak）</p>
@@ -515,8 +521,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>new和malloc的区别</p>
+<ul>
+<li>new和malloc的区别</li>
+</ul>
 <blockquote>
 <ul>
 <li>new分配内存按照数据类型进行分配，malloc分配内存按照指定的大小分配。</li>
@@ -529,8 +536,9 @@
 <li>申请数组时： new[]一次分配所有内存，多次调用构造函数，搭配使用delete[]，delete[]多次调用析构函数，销毁数组中的每个对象。而malloc则只能sizeof(int) * n。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>文件操作</p>
+<ul>
+<li>文件操作</li>
+</ul>
 <blockquote>
 <ul>
 <li>r 可读权限 文件必须存在 若不存在打开失败报错。</li>
@@ -541,13 +549,15 @@
 <li>a+ 以附加方式打开可读可写的文件 若文件存在 则会在文件末尾进行数据写入 若文件不存在 创建文件。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>补码</p>
+<ul>
+<li>补码</li>
+</ul>
 <blockquote>
 <p>正数的补码是它本身，负数的补码是原数值除符号位按位取反再加一，由补码求原数值也是按位取反再加一。</p>
 </blockquote>
-</li>
-<li><p>volatile关键字</p>
+<ul>
+<li>volatile关键字</li>
+</ul>
 <blockquote>
 <ul>
 <li>设备的硬件寄存器（如：状态寄存器）。</li>
@@ -555,8 +565,9 @@
 <li>多线程应用中被几个任务共享的变量 。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>结构体对齐规则</p>
+<ul>
+<li>结构体对齐规则</li>
+</ul>
 <blockquote>
 <ul>
 <li>将结构体内所有数据成员的长度值相加，记为sum_a。</li>
@@ -565,8 +576,9 @@
 <li>当所有成员大小计算完毕后，编译器判断当前结构体大小是否是结构体中最宽的成员变量大小的整数倍 如果不是会在最后一个成员后做字节填充。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>register修饰符</p>
+<ul>
+<li>register修饰符</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>register修饰符暗示编译程序相应的变量将被频繁地使用，如果可能的话，应将其保存在CPU的寄存器中，以加快其存储速度。</p>
@@ -593,16 +605,18 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>拷贝和赋值的区别</p>
+<ul>
+<li>拷贝和赋值的区别</li>
+</ul>
 <blockquote>
 <p>看赋值是否产生新的对象，如果产生新的对象则调用拷贝构造函数，没有产生新的对象，则调用的是赋值运算符。</p>
 <p>AB r1=r2; //调用拷贝构造函数 </p>
 <p>AB r1; </p>
 <p>r1=r2;//调用赋值重载运算</p>
 </blockquote>
-</li>
-<li><p>预处理</p>
+<ul>
+<li>预处理</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>包含</p>
@@ -621,8 +635,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>数据类型在内存中的存储形式</p>
+<ul>
+<li>数据类型在内存中的存储形式</li>
+</ul>
 <blockquote>
 <ul>
 <li>正数在内存中以原码形式存储。</li>
@@ -630,16 +645,18 @@
 <li>char型是直接将其对应的ASCII码存储。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>多态</p>
+<ul>
+<li>多态</li>
+</ul>
 <blockquote>
 <ul>
 <li>重载多态和强制多态是指特定多态。</li>
 <li>重载多态和强制多态是 指特定多态。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>volatile（易变的，不稳定的）</p>
+<ul>
+<li>volatile（易变的，不稳定的）</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>volatile用来声明那些可能在你的程序本身不知道的情况下会发生改变的变量。</p>
@@ -659,8 +676,9 @@
 </ul>
 </blockquote>
 </blockquote>
-</li>
-<li><p>用户态切换到内核态的 3 种方式</p>
+<ul>
+<li>用户态切换到内核态的 3 种方式</li>
+</ul>
 <blockquote>
 <ul>
 <li>系统调用</li>
@@ -668,8 +686,9 @@
 <li>外围设备的中断</li>
 </ul>
 </blockquote>
-</li>
-<li><p>柔性数组</p>
+<ul>
+<li>柔性数组</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>定义：柔性数组既数组大小待定的数组， C语言中结构体的最后一个元素可以是大小未知的数组，也就是所谓的0长度，所以我们可以用结构体来创建柔性数组。</p>
@@ -688,8 +707,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>switch语句</p>
+<ul>
+<li>switch语句</li>
+</ul>
 <blockquote>
 <ul>
 <li>char、short、int、long、bool 基本类型都可以用于switch语句。 </li>
@@ -699,8 +719,9 @@
 <li>字符串也不能用于switch语句。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>其他</p>
+<ul>
+<li>其他</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>最终继承类构造函数中，成员初始化列表同时出现对虚基类和非虚基类构造函数的调用时，虚基类的构造函数先于非虚基类的构造函数执行。</p>
@@ -732,8 +753,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>算法的五大特征</p>
+<ul>
+<li>算法的五大特征</li>
+</ul>
 <blockquote>
 <ul>
 <li>有穷性： 一个算法必须保证执行有限步之后结束。</li>
@@ -743,8 +765,9 @@
 <li>可行性： 算法原则上能够精确地运行，而且人们用笔和纸做有限次运算后即可完成。 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>虚函数</p>
+<ul>
+<li>虚函数</li>
+</ul>
 <blockquote>
 <ul>
 <li>只有类的成员函数才能说明为虚函数。</li>
@@ -754,8 +777,9 @@
 <li>析构函数可以是虚函数，而且通常声明为虚函数。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>回调函数</p>
+<ul>
+<li>回调函数</li>
+</ul>
 <blockquote>
 <ul>
 <li>回调函数就是一个通过函数指针调用的函数。</li>
@@ -763,8 +787,9 @@
 <li>回调函数不是由该函数的实现方法直接调用，而是在特定的事件或条件发生时由另外的一方调用的，用于对该事件或条件进行响应。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>main函数参数</p>
+<ul>
+<li>main函数参数</li>
+</ul>
 <blockquote>
 <ul>
 <li>int argc, char **argv 用于运行时，把命令行参数传入主程序。</li>
@@ -773,8 +798,9 @@
 <li>argv[0]：可执行程序名。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>内联函数</p>
+<ul>
+<li>内联函数</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>定义：内联函数是使用inline关键字声明的函数，也称内嵌函数，它主要的作用是解决程序的运行效率。</p>
@@ -791,8 +817,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>函数指针</p>
+<ul>
+<li>函数指针</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>定义：返回类型  (<em>指针名）  (函数参数列表)  ，例如 void (</em>p）（int）是指向一个返回值为void 参数为int类型的函数 。</p>
@@ -817,8 +844,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>形参和实参的区别</p>
+<ul>
+<li>形参和实参的区别</li>
+</ul>
 <blockquote>
 <ul>
 <li>形参变量只有在被调用时才分配内存单元，在调用结束时，即刻释放所分配的内存单元。因此，形参只在函数内部有效。函数调用结束返回主调用函数后则不能再使用该形参变量。</li>
@@ -827,8 +855,9 @@
 <li>在一般传值调用的机制中只能把实参传送给形参，而不能把形参的值反向地传送给实参。因此在函数调用过程中，形参值发生改变，而实参中的值不会变化。而在引用调用的机制当中是将实参引用的地址传递给了形参，所以任何发生在形参上的改变实际上也发生在实参变量上。</li>
 </ul>
 </blockquote>
-</li>
-<li><p>枚举</p>
+<ul>
+<li>枚举</li>
+</ul>
 <blockquote>
 <p>enum 枚举名　{枚举元素1,枚举元素2,……};</p>
 <p>枚举在C/C++/C#中，是一个被命名的整型常数的集合。所以D中的双引号元素字符串集合错误。 </p>
@@ -839,8 +868,9 @@
 <p>标识符[=整型常数] </p>
 <p>} 枚举变量; </p>
 </blockquote>
-</li>
-<li><p>全局变量和局部变量</p>
+<ul>
+<li>全局变量和局部变量</li>
+</ul>
 <blockquote>
 <ul>
 <li><p>局部变量可以与全局变量重名，但是局部变量会屏蔽全局变量。要使用全局变量，需要使用::。在函数体内引用变量会用到同名的局部变量而不是全局变量，对于一些编译器来说，在同一个函数体内可以定义多个同名的局部变量。例如我们可以在一个函数内部，在两个循环中都定义同名的局部变量i，而局部变量i的作用域在那个循环体内。</p>
@@ -857,8 +887,9 @@
 </li>
 </ul>
 </blockquote>
-</li>
-<li><p>const修饰类数据成员</p>
+<ul>
+<li>const修饰类数据成员</li>
+</ul>
 <blockquote>
 <p>const 修饰类的数据成员。如： </p>
 <p>class A </p>
@@ -882,8 +913,6 @@
 <p>} </p>
 <p>枚举常量不会占用对象的存储空间，他们在编译时被全部求值。但是枚举常量的隐含数据类型是整数，其最大值有限，且不能表示浮点数。 </p>
 </blockquote>
-</li>
-</ol>
 
       
 
